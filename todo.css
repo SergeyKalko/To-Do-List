@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #2D936C;
+    color: #fff;
+    font-family: 'Varela Round', sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 72px;
+    margin: 50px 0;
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    background: transparent;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    font-family: 'Varela Round', sans-serif;
+    width: 100%;
+    padding: 15px 15px 15px 0;
+    text-indent: 20px;
+    color: #fff;
+    transition: all 0.3s;
+    border-bottom: 1px solid #fff;
+  }
+  
+  input[type="text"]:focus {
+    border-bottom: 1px solid #000;
+  }
+  
+  input[type="text"]::-webkit-input-placeholder {
+    color: #fff;
+  }
+  
+  input[type="text"]:-moz-input-placeholder {
+    color: #fff;
+  }
+  
+  input[type="text"]:-ms-input-placeholder {
+    color: #fff;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 820px;
+  }
+  
+  .main-header {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .main-header input {
+    padding-right: 100px;
+  }
+  
+  .buttons {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -15px;
+  }
+  
+  .buttons a {
+    padding-right: 15px;
+    margin-right: 11px;
+    border-right: 1px solid #fff;
+    display: inline-block;
+    transition: all 0.3s;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .buttons a:last-child {
+    padding-right: 0;
+    margin-right: 0;
+    border-right: 0;
+  }
+  
+  .fa {
+    font-size: 30px;
+    color: #fff;
+    transition: all 0.2s;
+  }
+  
+  .fa:hover {
+    color: #000;
+    transform: scale(1.2);
+  }
+  
+  .todo {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .todo li {
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 10px;
+    text-align: left;
+    margin: 10px 35px 0 0;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000;
+    padding: 10px;
+    transition: all 0.6s;
+    box-shadow: 0 1px 9px #143a2b;
+  }
+  
+  .todo li.fill {
+    text-decoration: line-through;
+  }
+  
+  .todo li.fill i.fa-check {
+    color: #000;
+    transform: scale(1.2);
+  }
+  
+  .todo .fa:hover {
+    color: #000;
+  }
+  
+  .todo .buttons {
+    right: 20px;
+  }
+  
+  .todo .buttons a {
+    border-color: #2D936C;
+  }
+  
+  .count {
+    background: #fff;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    font-weight: bold;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    color: #000;
+    text-align: center;
+    display: none;
+  }
+  
+  .clean-item {
+    position: absolute;
+    right: -35px;
+    top: 10px;
+  }
+  
+  .check-item {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  
+  .colorDefault {
+    background-color: #000;
+  }
+  
+  .todo .green {
+    background-color: green;
+  }
+  
+  .fa-check {
+    color: #346654
+  }
